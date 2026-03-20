@@ -9,4 +9,5 @@ Apply CSS transitions to animate the expansion and collapse of content areas.
 Allow multiple sections to be open simultaneously (if desired) or restrict it to one open section at a time.
 
 ### Output
-<img width="1771" height="868" alt="image" src="https://github.com/user-attachments/assets/19b42fb8-56f2-41af-ab2d-eff0b35ec85a" />
+<img width="1919" height="930" alt="image" src="https://github.com/user-attachments/assets/ed9a5e40-0705-4c7e-8287-97e12cf1e1ca" />
+
