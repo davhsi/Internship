@@ -13,4 +13,5 @@ Desktop view
 ![Desktop-Navbar](./assets/output-1.png)
 
 Mobile view
+
 ![Mobile-Navbar](./assets/output-2.png)
