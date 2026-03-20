@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+.acc-container {
+  width: 800px;
+  margin: 40px auto;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid rgb(131, 85, 85);
+}
+
+.acc-item {
+  border-bottom: 1px solid #c49a6c;
+}
+
+.acc-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 16px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 18px;
+  background-color: rgb(130, 188, 154);
+  transition: background-color 0.3s;
+}
+
+.acc-label:hover {
+  background-color: #156c55;
+}
+
+.acc-content {
+  max-height: 0;
+  overflow: hidden;
+  transition:
+    max-height 0.4s,
+    padding 0.4s;
+  padding: 0 16px;
+  background-color: bisque;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #444;
+}
+
+.acc-toggle:checked ~ .acc-content {
+  max-height: 500px;
+  padding: 14px 16px;
+}
+
+.acc-toggle {
+  display: none;
+}
+
+.acc-icon {
+  font-size: 22px;
+  transition: transform 0.4s ease;
+  display: inline-block;
+}
+
+.acc-toggle:checked ~ .acc-label .acc-icon {
+  transform: rotate(45deg);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 100px;
+}
