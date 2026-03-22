@@ -1,0 +1,403 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(236, 222, 222);
+}
+
+nav {
+  background: linear-gradient(180deg, #41022b, #370d0d);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  border-bottom: 1px solid rgb(216, 216, 216);
+  box-shadow: 0px 1px 5px rgb(198, 196, 196);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.nav-links a:hover {
+  color: #fff3cd;
+}
+
+main {
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+section {
+  padding: 50px;
+}
+
+#home {
+  padding-top: 20px;
+}
+
+.home-page {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+.home-page-content1 {
+  flex: 1;
+  font-size: 20px;
+}
+
+.home-page-content1 h3 {
+  color: #41022b;
+  font-size: 25px;
+}
+
+.home-page-content1 p {
+  color: black;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.home-page-content1-img {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-page-content1-img img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px lightgray;
+}
+
+.product {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 20px 10%;
+}
+
+.product-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition:
+    transform 0.3s,
+    background-color 0.3s;
+}
+
+.product-head {
+  margin-top: 80px;
+  font-size: 25px;
+  font-weight: 600;
+  color: #41022b;
+  text-align: center;
+}
+
+.product-card img {
+  max-width: 250px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.product-card h3 {
+  font-size: 1.5rem;
+  color: #41022b;
+}
+
+.product-card p {
+  font-size: 1rem;
+  color: black;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.about-container {
+  max-width: 1100px;
+  margin: 80px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+}
+
+.about-header {
+  text-align: center;
+  color: #41022b;
+  font-size: 28px;
+}
+
+.about-content {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 300px;
+  text-align: justify;
+  font-size: 18px;
+  color: #333;
+}
+
+.about-image {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px lightgray;
+}
+
+#contact {
+  text-align: center;
+  padding: 60px 20px 40px;
+}
+
+#contact h2 {
+  color: #41022b;
+  margin-bottom: 5px;
+}
+
+#contact p {
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  background: #f7f7f7;
+  padding: 30px 25px;
+  width: 100%;
+  max-width: 420px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.form-container h2 {
+  text-align: center;
+  color: #41022b;
+  margin-bottom: 20px;
+}
+
+.form-container label {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.form-container input,
+.form-container select,
+.form-container textarea {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.form-container button {
+  width: 100%;
+  padding: 12px;
+  background: #41022b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background: #a70d73;
+}
+.page {
+  min-height: 80vh;
+}
+
+footer {
+  background: linear-gradient(180deg, #41022b, #370d0d);
+  font-size: 1.2rem;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  padding: 10px 0;
+  border-top: 1px solid rgb(216, 216, 216);
+  box-shadow: 0px 1px 5px rgb(198, 196, 196);
+  box-sizing: border-box;
+}
+
+.page {
+  opacity: 0;
+  display: none;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.page:target {
+  display: block;
+  opacity: 1;
+}
+
+@media screen and (max-width: 700px) {
+  .menu-icon {
+    display: block;
+    margin-right: 50px;
+    font-size: 20px;
+  }
+
+  .logo {
+    font-size: 15px;
+  }
+
+  nav {
+    justify-content: space-between;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(180deg, #41022b 0%, #370d0d 100%);
+    text-align: center;
+    padding: 20px;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-20px);
+    transition:
+      opacity 0.3s ease,
+      transform 0.3s ease;
+  }
+
+  #menu-toggle:checked + .menu-icon + .nav-links {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+  }
+
+  section {
+    padding: 20px;
+  }
+
+  .home-page {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    width: 100%;
+    margin-top: 30px;
+    gap: 30px;
+  }
+
+  .home-page-content1 {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .home-page-content1 h3 {
+    font-size: 18px;
+  }
+
+  .home-page-content1 p {
+    font-size: 16px;
+  }
+
+  .home-page-content1-img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .product {
+    grid-template-columns: 1fr;
+    padding: 0;
+    margin-right: 20px;
+  }
+
+  footer {
+    font-size: 12px;
+  }
+
+  .contact-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-form,
+  .contact-info {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .about-container {
+    padding: 20px;
+    margin: 40px auto;
+  }
+
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .form-container {
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+  }
+}
