@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What color is the sky?",
+    "options": ["Blue", "Green", "Red", "Yellow"],
+    "answer": "Blue"
+  },
+  {
+    "question": "How many legs does a dog have?",
+    "options": ["2", "3", "4", "5"],
+    "answer": "4"
+  },
+  {
+    "question": "Which animal says 'Meow'?",
+    "options": ["Dog", "Cat", "Cow", "Sheep"],
+    "answer": "Cat"
+  },
+  {
+    "question": "What comes after 2?",
+    "options": ["1", "3", "4", "5"],
+    "answer": "3"
+  },
+  {
+    "question": "Which shape is round?",
+    "options": ["Square", "Triangle", "Circle", "Rectangle"],
+    "answer": "Circle"
+  },
+  {
+    "question": "What color is a banana?",
+    "options": ["Red", "Blue", "Yellow", "Purple"],
+    "answer": "Yellow"
+  },
+  {
+    "question": "Which animal is big and has a trunk?",
+    "options": ["Dog", "Elephant", "Cat", "Rabbit"],
+    "answer": "Elephant"
+  },
+  {
+    "question": "How many fingers are on one hand?",
+    "options": ["3", "4", "5", "6"],
+    "answer": "5"
+  },
+  {
+    "question": "What do we drink that comes from a cow?",
+    "options": ["Juice", "Milk", "Water", "Tea"],
+    "answer": "Milk"
+  },
+  {
+    "question": "Which color is grass?",
+    "options": ["Blue", "Green", "Pink", "Orange"],
+    "answer": "Green"
+  }
+]
