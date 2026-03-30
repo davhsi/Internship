@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 800px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-bottom: 30px;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    background: rgb(194, 157, 157);
+    padding: 10px 0;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.quote {
+    background: #f4dbdb;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(255, 0, 0, 0.5);
+}
+
+.quote h2 {
+    margin: 0 0 10px 0;
+    font-size: 20px;
+    color: #3b0101;
+}
+
+.quote p {
+    color: #600831;
+}
+
+.loading {
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    color: #700404;
+}
