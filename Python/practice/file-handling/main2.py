@@ -1,0 +1,1 @@
+print(__name__ + " text from main2")
