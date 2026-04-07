@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ecommerce</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <nav>
+    <div class="search-container">
+      <div style="display:inline-flex"><span id="logo-mar">mar</span><span id="logo-ket">ket</span></div>
+      <div class="search-bar">
+        <img src="./assets/search-icon.png" alt="search-icon" id="search-icon" />
+        <input type="text" placeholder="Search for products, brands..." id="search-input" />
+      </div>
+    </div>
+
+    <div class="desktop-nav-actions">
+      <button class="nav-icon-btn" style="position: relative;">
+        <img src="./assets/empty-heart.png" alt="heart" width="20" height="20" />
+        <span class="heart-badge" id="heart-badge" style="display:none; position:absolute; top:-5px; right:-8px; background:#10b981; color:white; font-size:0.65rem; padding:1px 5px; border-radius:10px; font-weight:700;">0</span>
+      </button>
+      <button class="desktop-cart-btn" id="desktop-cart-btn">
+        <span class="cart-label">Cart</span>
+        <span class="desktop-cart-badge" id="desktop-cart-badge">0</span>
+      </button>
+    </div>
+
+    <div class="mobile-tabs" id="mobile-tabs">
+      <button class="tab-btn active" data-tab="products">Products</button>
+      <button class="tab-btn" data-tab="cart" id="cart-tab-btn">Cart</button>
+    </div>
+  </nav>
+
+  <div class="page-layout">
+    <aside class="filter-sidebar" id="filter-sidebar">
+      <section class="filter-section">
+        <p class="filter-label">CATEGORIES</p>
+        <ul class="category-list" id="category-list">
+          <li class="category-item active" data-category="">All Products <span class="cat-count" id="count-all"></span></li>
+          <li class="category-item" data-category="electronics">Electronics <span class="cat-count" id="count-electronics"></span></li>
+          <li class="category-item" data-category="clothing">Clothing <span class="cat-count" id="count-clothing"></span></li>
+          <li class="category-item" data-category="book">Books <span class="cat-count" id="count-book"></span></li>
+        </ul>
+      </section>
+
+      <section class="filter-section">
+        <p class="filter-label">PRICE RANGE</p>
+        <input type="range" id="price-range" min="0" max="3000" value="3000" step="50" class="price-slider" />
+        <div class="price-range-labels">
+          <span>Rs. 0</span><span id="price-max-label">Rs. 3000</span>
+        </div>
+      </section>
+
+      <section class="filter-section">
+        <p class="filter-label">RATING</p>
+        <ul class="rating-list" id="rating-list">
+        </ul>
+      </section>
+    </aside>
+
+    <main class="main-layout">
+      <div class="products-area">
+        <div class="active-filters-bar">
+          <div class="active-tags" id="active-tags">
+          </div>
+          <div class="showing-text">Showing <b id="showing-count">0</b> products</div>
+        </div>
+        <div class="grid-container" id="products-panel"></div>
+      </div>
+
+      <aside id="cart-sidebar" class="cart-sidebar">
+        <div class="cart-header">
+          <h2>Your Cart</h2>
+          <span id="cart-item-count" class="cart-item-count">0 items</span>
+        </div>
+        <div id="cart-items" class="cart-items">
+          <p class="empty">Your cart is empty.</p>
+        </div>
+        <div class="cart-summary">
+          <div class="coupon-input-wrapper">
+            <input type="text" id="coupon-input" placeholder="Promo code" maxlength="20" />
+            <button id="apply-coupon-btn">Apply</button>
+            <button id="remove-coupon-btn" class="remove-btn" style="display: none;">Remove</button>
+          </div>
+          <div id="coupon-applied-msg" class="coupon-applied-msg" style="display:none;"></div>
+          <div class="summary-rows">
+            <div class="summary-row"><span id="subtotal-label">Subtotal</span><span id="cart-subtotal">Rs. 0.00</span></div>
+            <div id="discount-row" class="summary-row discount-row" style="display: none;">
+              <span id="discount-label">Promo</span><span id="discount-amount" class="discount-amount">-Rs. 0.00</span>
+            </div>
+            <div class="summary-row shipping-row"><span>Shipping</span><span id="shipping-amount" class="shipping-free">Free</span></div>
+            <div class="summary-row tax-row">
+              <span id="tax-label">Tax</span><span id="tax-amount" class="tax-amount">Rs. 0.00</span>
+            </div>
+          </div>
+          <div class="total-row">
+            <span>Total</span><span id="cart-total">Rs. 0.00</span>
+          </div>
+          <button id="checkout-btn">Proceed to Checkout →</button>
+          <p class="secure-note">Secure checkout . SSL encrypted</p>
+        </div>
+      </aside>
+    </main>
+  </div>
+
+  <script type="module" src="script.js"></script>
+</body>
+
+</html>

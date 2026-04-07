@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "category": "clothing",
+    "name": "Cotton T-Shirt",
+    "rating": 4.2,
+    "price": 499,
+    "tag": "new",
+    "image": "https://picsum.photos/seed/tshirt/300/300"
+  },
+  {
+    "id": 2,
+    "category": "electronics",
+    "name": "Wireless Mouse",
+    "rating": 4.5,
+    "price": 799,
+    "tag": "hot",
+    "image": "https://picsum.photos/seed/mouse/300/300"
+  },
+  {
+    "id": 3,
+    "category": "book",
+    "name": "Atomic Habits",
+    "rating": 4.8,
+    "price": 399,
+    "tag": "-20%",
+    "image": "https://picsum.photos/seed/book1/300/300"
+  },
+  {
+    "id": 4,
+    "category": "clothing",
+    "name": "Denim Jacket",
+    "rating": 4.3,
+    "price": 1499,
+    "tag": "hot",
+    "image": "https://picsum.photos/seed/jacket/300/300"
+  },
+  {
+    "id": 5,
+    "category": "electronics",
+    "name": "Bluetooth Speaker",
+    "rating": 4.4,
+    "price": 1299,
+    "tag": "new",
+    "image": "https://picsum.photos/seed/speaker/300/300"
+  },
+  {
+    "id": 6,
+    "category": "book",
+    "name": "The Alchemist",
+    "rating": 4.6,
+    "price": 299,
+    "tag": "hot",
+    "image": "https://picsum.photos/seed/book2/300/300"
+  },
+  {
+    "id": 7,
+    "category": "clothing",
+    "name": "Running Shoes",
+    "rating": 4.1,
+    "price": 1999,
+    "tag": "-20%",
+    "image": "https://picsum.photos/seed/shoes/300/300"
+  },
+  {
+    "id": 8,
+    "category": "electronics",
+    "name": "Smart Watch",
+    "rating": 4.3,
+    "price": 2499,
+    "tag": "new",
+    "image": "https://picsum.photos/seed/watch/300/300"
+  },
+  {
+    "id": 9,
+    "category": "book",
+    "name": "Deep Work",
+    "rating": 4.7,
+    "price": 450,
+    "tag": "-20%",
+    "image": "https://picsum.photos/seed/book3/300/300"
+  },
+  {
+    "id": 10,
+    "category": "clothing",
+    "name": "Hoodie",
+    "rating": 4.4,
+    "price": 999,
+    "tag": "hot",
+    "image": "https://picsum.photos/seed/hoodie/300/300"
+  }
+]
