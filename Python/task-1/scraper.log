@@ -1,0 +1,351 @@
+[2026-04-09 16:54:42] [OK] Page 1 fetched successfully
+[2026-04-09 16:54:42] Page 1 — 22 products, total unique: 22
+[2026-04-09 16:54:47] [OK] Page 2 fetched successfully
+[2026-04-09 16:54:47] Page 2 — 22 products, total unique: 39
+[2026-04-09 16:54:54] [OK] Page 3 fetched successfully
+[2026-04-09 16:54:54] Page 3 — 22 products, total unique: 54
+[2026-04-09 16:54:57] [OK] Page 4 fetched successfully
+[2026-04-09 16:54:57] Page 4 — 22 products, total unique: 70
+[2026-04-09 16:55:02] [OK] Page 5 fetched successfully
+[2026-04-09 16:55:02] Page 5 — 22 products, total unique: 86
+[2026-04-09 16:55:09] [OK] Page 6 fetched successfully
+[2026-04-09 16:55:09] Page 6 — 22 products, total unique: 101
+[2026-04-09 16:55:15] [OK] Page 7 fetched successfully
+[2026-04-09 16:55:15] Page 7 — 22 products, total unique: 117
+[2026-04-09 16:55:21] [OK] Page 8 fetched successfully
+[2026-04-09 16:55:21] Page 8 — 22 products, total unique: 133
+[2026-04-09 16:55:29] [OK] Page 9 fetched successfully
+[2026-04-09 16:55:29] Page 9 — 22 products, total unique: 150
+[2026-04-09 16:55:34] [OK] Page 10 fetched successfully
+[2026-04-09 16:55:34] Page 10 — 22 products, total unique: 165
+[2026-04-09 16:55:37] [OK] Page 11 fetched successfully
+[2026-04-09 16:55:37] Page 11 — 22 products, total unique: 180
+[2026-04-09 16:55:42] [OK] Page 12 fetched successfully
+[2026-04-09 16:55:42] Page 12 — 22 products, total unique: 196
+[2026-04-09 16:55:46] [OK] Page 13 fetched successfully
+[2026-04-09 16:55:46] Page 13 — 22 products, total unique: 212
+[2026-04-09 16:55:50] [OK] Page 14 fetched successfully
+[2026-04-09 16:55:51] Page 14 — 22 products, total unique: 228
+[2026-04-09 16:55:55] [OK] Page 15 fetched successfully
+[2026-04-09 16:55:55] Page 15 — 22 products, total unique: 245
+[2026-04-09 16:55:59] [OK] Page 16 fetched successfully
+[2026-04-09 16:55:59] Page 16 — 22 products, total unique: 261
+[2026-04-09 16:56:05] [OK] Page 17 fetched successfully
+[2026-04-09 16:56:06] Page 17 — 22 products, total unique: 277
+[2026-04-09 16:56:10] [OK] Page 18 fetched successfully
+[2026-04-09 16:56:10] Page 18 — 22 products, total unique: 291
+[2026-04-09 16:56:14] [OK] Page 19 fetched successfully
+[2026-04-09 16:56:15] Page 19 — 22 products, total unique: 301
+[2026-04-09 16:56:18] [OK] Page 20 fetched successfully
+[2026-04-09 16:56:18] Page 20 — 8 products, total unique: 303
+[2026-04-09 16:56:22] [OK] Page 21 fetched successfully
+[2026-04-09 16:56:22] Page 21 — all ASINs repeated, stopping at page 20
+[2026-04-09 17:01:36] Scraper started — target: amazon.in/s?k=induction+stoves
+[2026-04-09 17:01:40] [OK] Page 1 fetched successfully
+[2026-04-09 17:01:40] Page 1 — 22 products, total unique: 22
+[2026-04-09 17:01:44] [OK] Page 2 fetched successfully
+[2026-04-09 17:01:44] Page 2 — 22 products, total unique: 39
+[2026-04-09 17:01:49] [OK] Page 3 fetched successfully
+[2026-04-09 17:01:49] Page 3 — 22 products, total unique: 54
+[2026-04-09 17:01:54] [OK] Page 4 fetched successfully
+[2026-04-09 17:01:54] Page 4 — 22 products, total unique: 70
+[2026-04-09 17:01:59] [OK] Page 5 fetched successfully
+[2026-04-09 17:02:00] Page 5 — 22 products, total unique: 86
+[2026-04-09 17:02:03] [OK] Page 6 fetched successfully
+[2026-04-09 17:02:03] Page 6 — 22 products, total unique: 102
+[2026-04-09 17:02:08] [OK] Page 7 fetched successfully
+[2026-04-09 17:02:08] Page 7 — 22 products, total unique: 117
+[2026-04-09 17:02:13] [OK] Page 8 fetched successfully
+[2026-04-09 17:02:13] Page 8 — 22 products, total unique: 134
+[2026-04-09 17:02:18] [OK] Page 9 fetched successfully
+[2026-04-09 17:02:18] Page 9 — 22 products, total unique: 150
+[2026-04-09 17:02:21] [OK] Page 10 fetched successfully
+[2026-04-09 17:02:22] Page 10 — 22 products, total unique: 166
+[2026-04-09 17:02:26] [OK] Page 11 fetched successfully
+[2026-04-09 17:02:26] Page 11 — 22 products, total unique: 182
+[2026-04-09 17:02:30] [OK] Page 12 fetched successfully
+[2026-04-09 17:02:31] Page 12 — 22 products, total unique: 198
+[2026-04-09 17:02:34] [OK] Page 13 fetched successfully
+[2026-04-09 17:02:34] Page 13 — 22 products, total unique: 215
+[2026-04-09 17:02:37] [OK] Page 14 fetched successfully
+[2026-04-09 17:02:37] Page 14 — 22 products, total unique: 231
+[2026-04-09 17:02:42] [OK] Page 15 fetched successfully
+[2026-04-09 17:02:43] Page 15 — 22 products, total unique: 248
+[2026-04-09 17:02:46] [OK] Page 16 fetched successfully
+[2026-04-09 17:02:47] Page 16 — 22 products, total unique: 264
+[2026-04-09 17:02:51] [OK] Page 17 fetched successfully
+[2026-04-09 17:02:51] Page 17 — 22 products, total unique: 279
+[2026-04-09 17:02:54] [OK] Page 18 fetched successfully
+[2026-04-09 17:02:54] Page 18 — 22 products, total unique: 292
+[2026-04-09 17:02:58] [OK] Page 19 fetched successfully
+[2026-04-09 17:02:58] Page 19 — 22 products, total unique: 302
+[2026-04-09 17:03:02] [OK] Page 20 fetched successfully
+[2026-04-09 17:03:03] Page 20 — 8 products, total unique: 304
+[2026-04-09 17:03:07] [OK] Page 21 fetched successfully
+[2026-04-09 17:03:07] Page 21 — all ASINs repeated, stopping at page 20
+[2026-04-09 17:03:07] Scraper finished — 304 total unique products saved to DB
+[2026-04-09 17:08:59] Scraper started — target: amazon.in/s?k=induction+stoves
+[2026-04-09 17:09:03] [OK] Page 1 fetched successfully
+[2026-04-09 17:09:03] Page 1 — 22 products, total unique: 22
+[2026-04-09 17:09:07] [OK] Page 2 fetched successfully
+[2026-04-09 17:09:08] Page 2 — 22 products, total unique: 39
+[2026-04-09 17:09:14] [OK] Page 3 fetched successfully
+[2026-04-09 17:09:14] Page 3 — 22 products, total unique: 54
+[2026-04-09 17:09:21] [OK] Page 4 fetched successfully
+[2026-04-09 17:09:21] Page 4 — 22 products, total unique: 69
+[2026-04-09 17:09:24] [OK] Page 5 fetched successfully
+[2026-04-09 17:09:25] Page 5 — 22 products, total unique: 83
+[2026-04-09 17:09:28] [OK] Page 6 fetched successfully
+[2026-04-09 17:09:28] Page 6 — 22 products, total unique: 98
+[2026-04-09 17:09:34] [OK] Page 7 fetched successfully
+[2026-04-09 17:09:34] Page 7 — 22 products, total unique: 114
+[2026-04-09 17:09:38] [OK] Page 8 fetched successfully
+[2026-04-09 17:09:39] Page 8 — 22 products, total unique: 131
+[2026-04-09 17:09:48] [OK] Page 9 fetched successfully
+[2026-04-09 17:09:48] Page 9 — 22 products, total unique: 147
+[2026-04-09 17:09:52] [OK] Page 10 fetched successfully
+[2026-04-09 17:09:52] Page 10 — 22 products, total unique: 162
+[2026-04-09 17:09:57] [OK] Page 11 fetched successfully
+[2026-04-09 17:09:57] Page 11 — 22 products, total unique: 179
+[2026-04-09 17:10:01] [OK] Page 12 fetched successfully
+[2026-04-09 17:10:01] Page 12 — 22 products, total unique: 195
+[2026-04-09 17:10:05] [OK] Page 13 fetched successfully
+[2026-04-09 17:10:06] Page 13 — 22 products, total unique: 211
+[2026-04-09 17:10:09] [OK] Page 14 fetched successfully
+[2026-04-09 17:10:10] Page 14 — 22 products, total unique: 227
+[2026-04-09 17:10:14] [OK] Page 15 fetched successfully
+[2026-04-09 17:10:15] Page 15 — 22 products, total unique: 243
+[2026-04-09 17:10:18] [OK] Page 16 fetched successfully
+[2026-04-09 17:10:18] Page 16 — 22 products, total unique: 260
+[2026-04-09 17:10:22] [OK] Page 17 fetched successfully
+[2026-04-09 17:10:22] Page 17 — 22 products, total unique: 276
+[2026-04-09 17:10:25] [OK] Page 18 fetched successfully
+[2026-04-09 17:10:25] Page 18 — 22 products, total unique: 289
+[2026-04-09 17:10:28] [OK] Page 19 fetched successfully
+[2026-04-09 17:10:29] Page 19 — 22 products, total unique: 297
+[2026-04-09 17:10:32] [OK] Page 20 fetched successfully
+[2026-04-09 17:10:32] Page 20 — 8 products, total unique: 299
+[2026-04-09 17:10:36] [OK] Page 21 fetched successfully
+[2026-04-09 17:10:37] Page 21 — all ASINs repeated, stopping at page 20
+[2026-04-09 17:10:37] Scraper finished — 299 total unique products saved to DB
+[2026-04-09 17:12:24] Scraper started — target: amazon.in/s?k=induction+stoves
+[2026-04-09 17:12:27] [OK] Page 1 fetched successfully
+[2026-04-09 17:12:27] Page 1 — 22 products, total unique: 21
+[2026-04-09 17:12:33] [OK] Page 2 fetched successfully
+[2026-04-09 17:12:33] Page 2 — 22 products, total unique: 38
+[2026-04-09 17:12:37] [OK] Page 3 fetched successfully
+[2026-04-09 17:12:37] Page 3 — 22 products, total unique: 53
+[2026-04-09 17:12:42] [OK] Page 4 fetched successfully
+[2026-04-09 17:12:42] Page 4 — 22 products, total unique: 69
+[2026-04-09 17:12:49] [OK] Page 5 fetched successfully
+[2026-04-09 17:12:49] Page 5 — 22 products, total unique: 85
+[2026-04-09 17:12:53] [OK] Page 6 fetched successfully
+[2026-04-09 17:12:54] Page 6 — 22 products, total unique: 102
+[2026-04-09 17:12:57] [OK] Page 7 fetched successfully
+[2026-04-09 17:12:57] Page 7 — 22 products, total unique: 117
+[2026-04-09 17:13:01] [OK] Page 8 fetched successfully
+[2026-04-09 17:13:01] Page 8 — 22 products, total unique: 132
+[2026-04-09 17:13:07] [OK] Page 9 fetched successfully
+[2026-04-09 17:13:07] Page 9 — 22 products, total unique: 147
+[2026-04-09 17:13:11] [OK] Page 10 fetched successfully
+[2026-04-09 17:13:12] Page 10 — 22 products, total unique: 163
+[2026-04-09 17:13:15] [OK] Page 11 fetched successfully
+[2026-04-09 17:13:15] Page 11 — 22 products, total unique: 181
+[2026-04-09 17:13:19] [OK] Page 12 fetched successfully
+[2026-04-09 17:13:19] Page 12 — 22 products, total unique: 197
+[2026-04-09 17:13:22] [OK] Page 13 fetched successfully
+[2026-04-09 17:13:22] Page 13 — 22 products, total unique: 213
+[2026-04-09 17:13:27] [OK] Page 14 fetched successfully
+[2026-04-09 17:13:27] Page 14 — 22 products, total unique: 230
+[2026-04-09 17:13:32] [OK] Page 15 fetched successfully
+[2026-04-09 17:13:33] Page 15 — 22 products, total unique: 246
+[2026-04-09 17:13:37] [OK] Page 16 fetched successfully
+[2026-04-09 17:13:37] Page 16 — 22 products, total unique: 262
+[2026-04-09 17:13:42] [OK] Page 17 fetched successfully
+[2026-04-09 17:13:42] Page 17 — 22 products, total unique: 278
+[2026-04-09 17:13:45] [OK] Page 18 fetched successfully
+[2026-04-09 17:13:45] Page 18 — 22 products, total unique: 290
+[2026-04-09 17:13:49] [OK] Page 19 fetched successfully
+[2026-04-09 17:13:49] Page 19 — 22 products, total unique: 299
+[2026-04-09 17:13:53] [OK] Page 20 fetched successfully
+[2026-04-09 17:13:53] Page 20 — 8 products, total unique: 300
+[2026-04-09 17:13:57] [OK] Page 21 fetched successfully
+[2026-04-09 17:13:57] Page 21 — all ASINs repeated, stopping at page 20
+[2026-04-09 17:13:57] Scraper finished — 300 total unique products saved to DB
+[2026-04-09 17:20:36] Scraper started — target: amazon.in/s?k=induction+stoves
+[2026-04-09 17:20:39] [OK] Page 1 fetched successfully
+[2026-04-09 17:20:39] Page 1 — 22 products, total unique: 22
+[2026-04-09 17:20:44] [OK] Page 2 fetched successfully
+[2026-04-09 17:20:44] Page 2 — 22 products, total unique: 39
+[2026-04-09 17:20:47] [OK] Page 3 fetched successfully
+[2026-04-09 17:20:47] Page 3 — 22 products, total unique: 55
+[2026-04-09 17:20:52] [OK] Page 4 fetched successfully
+[2026-04-09 17:20:52] Page 4 — 22 products, total unique: 71
+[2026-04-09 17:20:55] [OK] Page 5 fetched successfully
+[2026-04-09 17:20:55] Page 5 — 22 products, total unique: 86
+[2026-04-09 17:20:58] [OK] Page 6 fetched successfully
+[2026-04-09 17:20:58] Page 6 — 22 products, total unique: 101
+[2026-04-09 17:21:02] [OK] Page 7 fetched successfully
+[2026-04-09 17:21:02] Page 7 — 22 products, total unique: 117
+[2026-04-09 17:21:05] [OK] Page 8 fetched successfully
+[2026-04-09 17:21:05] Page 8 — 22 products, total unique: 133
+[2026-04-09 17:21:08] [OK] Page 9 fetched successfully
+[2026-04-09 17:21:09] Page 9 — 22 products, total unique: 151
+[2026-04-09 17:21:13] [OK] Page 10 fetched successfully
+[2026-04-09 17:21:14] Page 10 — 22 products, total unique: 167
+[2026-04-09 17:21:18] [OK] Page 11 fetched successfully
+[2026-04-09 17:21:18] Page 11 — 22 products, total unique: 183
+[2026-04-09 17:21:22] [OK] Page 12 fetched successfully
+[2026-04-09 17:21:23] Page 12 — 22 products, total unique: 199
+[2026-04-09 17:21:27] [OK] Page 13 fetched successfully
+[2026-04-09 17:21:27] Page 13 — 22 products, total unique: 215
+[2026-04-09 17:21:31] [OK] Page 14 fetched successfully
+[2026-04-09 17:21:31] Page 14 — 22 products, total unique: 231
+[2026-04-09 17:21:35] [OK] Page 15 fetched successfully
+[2026-04-09 17:21:35] Page 15 — 22 products, total unique: 247
+[2026-04-09 17:21:39] [OK] Page 16 fetched successfully
+[2026-04-09 17:21:39] Page 16 — 22 products, total unique: 264
+[2026-04-09 17:21:42] [OK] Page 17 fetched successfully
+[2026-04-09 17:21:43] Page 17 — 22 products, total unique: 281
+[2026-04-09 17:21:47] [OK] Page 18 fetched successfully
+[2026-04-09 17:21:48] Page 18 — 22 products, total unique: 295
+[2026-04-09 17:21:52] [OK] Page 19 fetched successfully
+[2026-04-09 17:21:52] Page 19 — 22 products, total unique: 301
+[2026-04-09 17:21:56] [OK] Page 20 fetched successfully
+[2026-04-09 17:21:56] Page 20 — 8 products, total unique: 303
+[2026-04-09 17:21:59] [OK] Page 21 fetched successfully
+[2026-04-09 17:22:00] Page 21 — all ASINs repeated, stopping at page 20
+[2026-04-09 17:22:00] Scraper finished — 303 total unique products saved to DB
+[2026-04-09 17:53:45] Scraper started — target: amazon.in/s?k=induction+stoves
+[2026-04-09 17:54:09] [OK] Page 1 fetched successfully
+[2026-04-09 17:54:09] Page 1 — 22 products
+[2026-04-09 17:54:10] [OK] Page 22 fetched successfully
+[2026-04-09 17:54:10] Page 22 — 6 products
+[2026-04-09 17:54:15] [OK] Page 10 fetched successfully
+[2026-04-09 17:54:15] Page 10 — 22 products
+[2026-04-09 17:54:15] [OK] Page 9 fetched successfully
+[2026-04-09 17:54:15] Page 3 attempt 1 failed. Retries left: 2
+[2026-04-09 17:54:15] Page 4 attempt 1 failed. Retries left: 2
+[2026-04-09 17:54:15] Page 2 attempt 1 failed. Retries left: 2
+[2026-04-09 17:54:15] Page 6 attempt 1 failed. Retries left: 2
+[2026-04-09 17:54:15] Page 7 attempt 1 failed. Retries left: 2
+[2026-04-09 17:54:15] Page 5 attempt 1 failed. Retries left: 2
+[2026-04-09 17:54:15] Page 8 attempt 1 failed. Retries left: 2
+[2026-04-09 17:54:15] Page 12 attempt 1 failed. Retries left: 2
+[2026-04-09 17:54:15] Page 14 attempt 1 failed. Retries left: 2
+[2026-04-09 17:54:15] Page 11 attempt 1 failed. Retries left: 2
+[2026-04-09 17:54:15] Page 15 attempt 1 failed. Retries left: 2
+[2026-04-09 17:54:15] Page 13 attempt 1 failed. Retries left: 2
+[2026-04-09 17:54:15] Page 16 attempt 1 failed. Retries left: 2
+[2026-04-09 17:54:15] Page 17 attempt 1 failed. Retries left: 2
+[2026-04-09 17:54:15] Page 18 attempt 1 failed. Retries left: 2
+[2026-04-09 17:54:15] Page 19 attempt 1 failed. Retries left: 2
+[2026-04-09 17:54:15] Page 20 attempt 1 failed. Retries left: 2
+[2026-04-09 17:54:15] Page 21 attempt 1 failed. Retries left: 2
+[2026-04-09 17:54:15] Page 24 attempt 1 failed. Retries left: 2
+[2026-04-09 17:54:15] Page 23 attempt 1 failed. Retries left: 2
+[2026-04-09 17:54:15] Page 9 — 22 products
+[2026-04-09 17:54:36] [OK] Page 13 fetched successfully
+[2026-04-09 17:54:36] [OK] Page 20 fetched successfully
+[2026-04-09 17:54:37] Page 13 — 22 products
+[2026-04-09 17:54:37] Page 20 — 8 products
+[2026-04-09 17:54:37] [OK] Page 2 fetched successfully
+[2026-04-09 17:54:37] Page 2 — 22 products
+[2026-04-09 17:54:39] [OK] Page 12 fetched successfully
+[2026-04-09 17:54:39] Page 12 — 22 products
+[2026-04-09 17:54:40] [OK] Page 23 fetched successfully
+[2026-04-09 17:54:41] Page 23 — 6 products
+[2026-04-09 17:54:41] [OK] Page 16 fetched successfully
+[2026-04-09 17:54:41] Page 16 — 22 products
+[2026-04-09 17:54:43] [OK] Page 19 fetched successfully
+[2026-04-09 17:54:43] Page 19 — 22 products
+[2026-04-09 17:54:47] Page 15 attempt 2 failed. Retries left: 1
+[2026-04-09 17:54:47] Page 8 attempt 2 failed. Retries left: 1
+[2026-04-09 17:54:47] Page 21 attempt 2 failed. Retries left: 1
+[2026-04-09 17:54:48] Page 24 attempt 2 failed. Retries left: 1
+[2026-04-09 17:54:48] Page 6 attempt 2 failed. Retries left: 1
+[2026-04-09 17:54:48] Page 3 attempt 2 failed. Retries left: 1
+[2026-04-09 17:54:48] Page 4 attempt 2 failed. Retries left: 1
+[2026-04-09 17:54:49] Page 14 attempt 2 failed. Retries left: 1
+[2026-04-09 17:54:49] Page 11 attempt 2 failed. Retries left: 1
+[2026-04-09 17:54:50] Page 17 attempt 2 failed. Retries left: 1
+[2026-04-09 17:54:50] Page 5 attempt 2 failed. Retries left: 1
+[2026-04-09 17:54:50] Page 7 attempt 2 failed. Retries left: 1
+[2026-04-09 17:54:50] Page 18 attempt 2 failed. Retries left: 1
+[2026-04-09 17:55:02] [OK] Page 4 fetched successfully
+[2026-04-09 17:55:02] [OK] Page 3 fetched successfully
+[2026-04-09 17:55:02] Page 4 — 22 products
+[2026-04-09 17:55:02] Page 3 — 22 products
+[2026-04-09 17:55:03] [OK] Page 17 fetched successfully
+[2026-04-09 17:55:03] Page 17 — 22 products
+[2026-04-09 17:55:03] [OK] Page 14 fetched successfully
+[2026-04-09 17:55:03] Page 14 — 22 products
+[2026-04-09 17:55:03] [OK] Page 11 fetched successfully
+[2026-04-09 17:55:04] Page 11 — 22 products
+[2026-04-09 17:55:07] [OK] Page 15 fetched successfully
+[2026-04-09 17:55:07] Page 15 — 22 products
+[2026-04-09 17:55:08] [OK] Page 21 fetched successfully
+[2026-04-09 17:55:08] Page 21 — 6 products
+[2026-04-09 17:55:09] [OK] Page 24 fetched successfully
+[2026-04-09 17:55:09] Page 24 — 6 products
+[2026-04-09 17:55:09] [OK] Page 7 fetched successfully
+[2026-04-09 17:55:09] [OK] Page 5 fetched successfully
+[2026-04-09 17:55:09] Page 7 — 22 products
+[2026-04-09 17:55:09] Page 5 — 22 products
+[2026-04-09 17:55:11] [OK] Page 8 fetched successfully
+[2026-04-09 17:55:11] Page 8 — 22 products
+[2026-04-09 17:55:12] [OK] Page 18 fetched successfully
+[2026-04-09 17:55:12] [OK] Page 6 fetched successfully
+[2026-04-09 17:55:12] Page 18 — 22 products
+[2026-04-09 17:55:12] Page 6 — 16 products
+[2026-04-09 17:55:12] Scraper finished — 249 total unique products saved to DB
+[2026-04-09 17:56:35] Scraper started — target: amazon.in/s?k=induction+stoves
+[2026-04-09 17:56:41] [OK] Page 1 fetched successfully
+[2026-04-09 17:56:41] Page 1 — 22 products
+[2026-04-09 17:56:42] [OK] Page 3 fetched successfully
+[2026-04-09 17:56:42] Page 3 — 22 products
+[2026-04-09 17:56:46] [OK] Page 2 fetched successfully
+[2026-04-09 17:56:46] Page 2 — 22 products
+[2026-04-09 17:56:48] [OK] Page 4 fetched successfully
+[2026-04-09 17:56:48] Page 4 — 22 products
+[2026-04-09 17:56:52] [OK] Page 5 fetched successfully
+[2026-04-09 17:56:52] Page 5 — 22 products
+[2026-04-09 17:56:57] [OK] Page 7 fetched successfully
+[2026-04-09 17:56:57] Page 7 — 22 products
+[2026-04-09 17:56:59] [OK] Page 6 fetched successfully
+[2026-04-09 17:57:00] Page 6 — 22 products
+[2026-04-09 17:57:02] [OK] Page 8 fetched successfully
+[2026-04-09 17:57:02] Page 8 — 22 products
+[2026-04-09 17:57:02] [OK] Page 9 fetched successfully
+[2026-04-09 17:57:03] Page 9 — 22 products
+[2026-04-09 17:57:08] [OK] Page 10 fetched successfully
+[2026-04-09 17:57:09] Page 10 — 22 products
+[2026-04-09 17:57:09] [OK] Page 11 fetched successfully
+[2026-04-09 17:57:09] Page 11 — 22 products
+[2026-04-09 17:57:13] [OK] Page 12 fetched successfully
+[2026-04-09 17:57:13] Page 12 — 22 products
+[2026-04-09 17:57:15] [OK] Page 13 fetched successfully
+[2026-04-09 17:57:15] Page 13 — 22 products
+[2026-04-09 17:57:19] [OK] Page 14 fetched successfully
+[2026-04-09 17:57:19] Page 14 — 22 products
+[2026-04-09 17:57:24] [OK] Page 15 fetched successfully
+[2026-04-09 17:57:25] Page 15 — 22 products
+[2026-04-09 17:57:28] [OK] Page 16 fetched successfully
+[2026-04-09 17:57:28] Page 16 — 22 products
+[2026-04-09 17:57:29] [OK] Page 17 fetched successfully
+[2026-04-09 17:57:30] Page 17 — 22 products
+[2026-04-09 17:57:32] [OK] Page 18 fetched successfully
+[2026-04-09 17:57:33] Page 18 — 22 products
+[2026-04-09 17:57:36] [OK] Page 19 fetched successfully
+[2026-04-09 17:57:36] Page 19 — 22 products
+[2026-04-09 17:57:39] [OK] Page 20 fetched successfully
+[2026-04-09 17:57:39] Page 20 — 8 products
+[2026-04-09 17:57:40] [OK] Page 22 fetched successfully
+[2026-04-09 17:57:40] Page 22 — 6 products
+[2026-04-09 17:57:40] [OK] Page 21 fetched successfully
+[2026-04-09 17:57:40] Page 21 — 6 products
+[2026-04-09 17:57:42] [OK] Page 23 fetched successfully
+[2026-04-09 17:57:42] Page 23 — 6 products
+[2026-04-09 17:57:43] [OK] Page 24 fetched successfully
+[2026-04-09 17:57:43] Page 24 — 6 products
+[2026-04-09 17:57:43] Scraper finished — 266 total unique products saved to DB
