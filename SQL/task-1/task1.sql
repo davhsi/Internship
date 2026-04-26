@@ -1,42 +1,40 @@
--- customers(id, name, email, city, created_at)
--- orders(id, customer_id, total, status, ordered_at)
+drop table if exists orders;
+drop table if exists customers;
 
-create table if not exists customers (
-id int primary key,
-name varchar(255) not null,
-email varchar(255) not null,
-city varchar(255) not null,
-created_at timestamp default current_timestamp
+create table customers (
+    id int primary key,
+    name varchar(255) not null,
+    email varchar(255) unique not null,
+    city varchar(255) not null,
+    created_at timestamp default current_timestamp
 );
 
-create table if not exists orders (
-id int primary key,
-customer_id int not null,
-total int not null,
-status varchar(50) not null,
-ordered_at timestamp default current_timestamp,
-foreign key (customer_id) references customers(id)
+create table orders (
+    id int primary key,
+    customer_id int not null,
+    total numeric(10,2) not null,
+    status varchar(50) not null,
+    ordered_at timestamp default current_timestamp,
+    foreign key (customer_id) references customers(id)
 );
 
-insert into customers (id, name, city, email) values 
-(101, 'Davish', 'Erode', 'davish@gmail.com'),
-(102, 'Vignesh', 'Karur', 'vignesh@gmail.com'),
-(103, 'Kishore', 'Namakkal', 'kishore@gmail.com');
+insert into customers (id, name, email, city) values
+(101, 'davish', 'davish@gmail.com', 'erode'),
+(102, 'vignesh', 'vignesh@gmail.com', 'karur'),
+(103, 'kishore', 'kishore@gmail.com', 'namakkal'),
+(104, 'arun', 'arun@gmail.com', 'chennai'),
+(105, 'meena', 'meena@gmail.com', 'salem');
 
 
-insert into orders (id, customer_id, total, status) values
-(1, 101, 2000, 'delivered'),
-(2, 101, 1000, 'shipped'),
-(3, 102, 5000, 'delivered'),
-(4, 102, 8000, 'cancelled');
+insert into orders (id, customer_id, total, status, ordered_at) values
+(1, 101, 2000, 'completed', '2024-01-10'),
+(2, 101, 1500, 'completed', '2024-01-12'),
+(3, 102, 3000, 'completed', '2024-02-01'),
+(4, 104, 2500, 'pending',   '2024-02-05');
 
-
--- Write a query to list the names and emails of all customers who have never placed an order.
 
 select c.name, c.email
 from customers c
 left join orders o
 on c.id = o.customer_id
 where o.id is null;
-
-
