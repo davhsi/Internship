@@ -1,0 +1,300 @@
+================================================================================
+TIMESTAMP: 2026-06-10T17:23:36.674750
+---------------------------------------- REQUEST ----------------------------------------
+{
+  "system_instruction": {
+    "parts": [
+      {
+        "text": "You are a helpful assistant that answers questions based strictly on the provided document context and conversation history. If the answer cannot be found in the context, say: 'I cannot answer this based on the provided information.' Be concise and factual."
+      }
+    ]
+  },
+  "contents": [
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "Context from documents:\nCotton is a soft, fluffy, natural staple fiber composed almost entirely of cellulose. It grows in protective cases, called bolls, around the seeds of the cotton plant (genus Gossypium). It is widely cultivated for manufacturing breathable, durable, and biodegradable textiles. Core CharacteristicsComposition: ~87\u201390% pure cellulose, along with minor percentages of natural waxes, water, and pectins. Fiber Structure: Under a microscope, fibers look like flat, twisted ribbons.\n\nSeed Byproducts: Crushed seeds yield cottonseed oil for cooking and meal used as animal feed.Cultivation and ProcessingGrowth Cycle: Planted in the spring. The shrub produces flowers that eventually fall off, leaving behind seed pods (bolls). When mature, the bolls burst open, revealing the fluffy fibers.Ginning: After harvesting, the raw cotton is processed in a \"gin\" to remove debris, separate the seeds from the fibers, and compress the lint into bales.\n\nRegional Hubs: India is one of the world's largest cotton producers, with major cultivation zones in states like Gujarat, Maharashtra, Telangana, and Karnataka.\n\nPrevious conversation:\n\n\nHuman: Hi I am Davish, I need to know about whether I can eat cotton.\n\nAssistant:"
+        }
+      ]
+    }
+  ],
+  "generationConfig": {
+    "temperature": 0.2,
+    "maxOutputTokens": 1024
+  }
+}
+---------------------------------------- RESPONSE ---------------------------------------
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "I cannot answer this based on the provided information.",
+            "thoughtSignature": "Ep0ICpoIAQw51sdRbFdN/ZboGLjF3mcycZcadwl/miU7Ruq8uhueo+JATdId2LzYY3YAXGtagp4YhQG+YmjEFgADoGzkZwEtqWP2cWfcZm3pTKhnzs47PeEtTsHwyyWv8stcs5d57NUY2cG5F4ojDoye6LkpbcNYKXfafUuC3g7P7Sg0yrkYpRzndMXg2JpAlSRlxTLWEjcrUcfZQjVc+f1yzLovaLO5sppG/sFYL1QFKhb7Y49EgD/tyvmf9lzckX1YK4uWwoAwjVLnISSdSSb1B1xwr44ZOfvEAhhYqQCq9zzfbmLOKcfuurrRfrM3ejaL2FzjaOLUJCTsae0/tX2+OQnje1MFEVM/YG9NRTlhDz1M+/lv06Jm9VqKVYr96VdxmHv8Ax0E26o/houTmks65WE5fj87/dQ48XYLQfb2GCdk4VoFcLjnrww1N1gEVoo0NQ6eud21pXia7X3j4seMIlBHH6qvFgKU+8Ix5qJkj2xHJE8K2Idll7DN7AXitJmjKKXJS8XqN3rtFBT25a5Zh1yFey7NUvSjifmL6j4Wg0rCqVOkMY7cNRw9qw2ER0Cv6JY6UqXV8XVzbH/h5Uo091KE+eMOOXDPXZ+IKNPzLMrAogAJ27yDwe0nw+hY40170wis+ETPQr2QRTvAwhS++ujwVPIUhMfqEPe35Yq43p+Qjcg+1dnHEpGZcSyNdTTjgincI3OvHAN8Qa5EyMe/V92sh6x/4NaHVZ0O7QF2mTb5sweuK9tI7RaXZLQKKdGMXKLewdxDVxlLTmf7DMlvzM9bQwiHd2opoRhIgSpHEUVIRcSnWEDl+3szqcqHcEYQbaZ/oTameN5vzaUG73hzV0uPIvNxPyad0k2hEFPbjkx4tFNU74G2F3hKSIALQFVbt8XyqfI+bpgdjOddSlWEzquFYgxqT6kQ+Wx/wOaDi5LfivUPUu5gJgnvsLDY556dKhW/7oGPt7H6zHQyi8SgeZ37TrBMPAN/7EE3kXFMjeQzRLpxmGzLRUZ/rf3/ykM76sdLF/iZ2GMRxvECUL87NXX4hEPCXnoHxGPOy7FQvoDp+4wihcuThKbXIDyt9jTBFPwTEz8YhKCRpGFJxouupC5Su9FX/eBQkgoRzyBgRQZ8HHMMbs5gcFal7hIwXwKyL3/6RcyueZUES8XnMeoTPObn7UOTfTtDPd3l2xx42JerGD+SuIPBxesVtrtK62gxgOxOuk4qQKdHBP8I43vkK0oyGt8r4BHYQo4qyuqo7BfjcNcW0fO8cl7KoWH9TACWDeV106HoHFPfVuqrCkxOf/aHXw1aMMQD0WgMHVDjFY/pmYAES5GoD+UfrCOAJbCP7cftx+JJWOeQq3Eh6Yh7ATIrXZ97JV8Q977QF2JZUdlSFToCvl+PmLtFwIq3"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 307,
+    "candidatesTokenCount": 10,
+    "totalTokenCount": 547,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 307
+      }
+    ],
+    "thoughtsTokenCount": 230,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash",
+  "responseId": "PlAparqWDKGrjuMPiZHckA0"
+}
+
+================================================================================
+TIMESTAMP: 2026-06-10T17:24:40.607257
+---------------------------------------- REQUEST ----------------------------------------
+{
+  "system_instruction": {
+    "parts": [
+      {
+        "text": "Given a chat history and the latest user question which might reference context in the chat history, rewrite it as a standalone question that can be understood without the chat history. Do NOT answer the question. Return ONLY the rewritten question."
+      }
+    ]
+  },
+  "contents": [
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "Chat history:\nHuman: Hi I am Davish, I need to know about whether I can eat cotton.\n\nAssistant: I cannot answer this based on the provided information.\n\nQuestion: is cotton hard?"
+        }
+      ]
+    }
+  ],
+  "generationConfig": {
+    "temperature": 0.2,
+    "maxOutputTokens": 1024
+  }
+}
+---------------------------------------- RESPONSE ---------------------------------------
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Is cotton a hard material?",
+            "thoughtSignature": "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"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 89,
+    "candidatesTokenCount": 6,
+    "totalTokenCount": 1076,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 89
+      }
+    ],
+    "thoughtsTokenCount": 981,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash",
+  "responseId": "U1Apas3TGJiIjuMP6re5-QI"
+}
+
+================================================================================
+TIMESTAMP: 2026-06-10T17:24:42.864468
+---------------------------------------- REQUEST ----------------------------------------
+{
+  "system_instruction": {
+    "parts": [
+      {
+        "text": "You are a helpful assistant that answers questions based strictly on the provided document context and conversation history. If the answer cannot be found in the context, say: 'I cannot answer this based on the provided information.' Be concise and factual."
+      }
+    ]
+  },
+  "contents": [
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "Context from documents:\nCotton is a soft, fluffy, natural staple fiber composed almost entirely of cellulose. It grows in protective cases, called bolls, around the seeds of the cotton plant (genus Gossypium). It is widely cultivated for manufacturing breathable, durable, and biodegradable textiles. Core CharacteristicsComposition: ~87\u201390% pure cellulose, along with minor percentages of natural waxes, water, and pectins. Fiber Structure: Under a microscope, fibers look like flat, twisted ribbons.\n\nBenefits: Highly absorbent (soaking up to 24-27% of its own weight), soft, easy to dye, and machine-washable. Main Uses Apparel: Used globally to produce everything from lightweight voiles to heavy denim and velveteen. Home Textiles: Commonly used for bed sheets, towels, and upholstery. Medical & Personal Care: Used for disposable nonwoven products like bandages, cotton balls, and swabs.\n\nSeed Byproducts: Crushed seeds yield cottonseed oil for cooking and meal used as animal feed.Cultivation and ProcessingGrowth Cycle: Planted in the spring. The shrub produces flowers that eventually fall off, leaving behind seed pods (bolls). When mature, the bolls burst open, revealing the fluffy fibers.Ginning: After harvesting, the raw cotton is processed in a \"gin\" to remove debris, separate the seeds from the fibers, and compress the lint into bales.\n\nPrevious conversation:\nHuman: Hi I am Davish, I need to know about whether I can eat cotton.\n\nAssistant: I cannot answer this based on the provided information.\n\nHuman: Is cotton a hard material?\n\nAssistant:"
+        }
+      ]
+    }
+  ],
+  "generationConfig": {
+    "temperature": 0.2,
+    "maxOutputTokens": 1024
+  }
+}
+---------------------------------------- RESPONSE ---------------------------------------
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "No, based on the provided context, cotton is a soft, fluffy material.",
+            "thoughtSignature": "Et8GCtwGAQw51sdUEg+ZoNtE9gjK3pOCy62cTNDD7Irpu79Ga5vmyoUybsbPLEdaPoy3F6DWL/7KfW81mCTXDTjYNKK7dR0hMXDCW3MO4i9HWqTm7I8thazJhr5x6MMfxHz9HziPsWQcSOsaxqgrGrhPgBhQoCRnHN9Cfp1aKGodfIYy24k2sqOo9AHy5c8O78BJTYQPn+46uVpMGffIbTi1uBWGhvpodXrPF4//46YywVI+cX2eoTAli0W3mbsbweN/QqM7KONpzYS1cXwdAXRlwF50YQrbI3CkI4kDI+g4SkxbUkhS4N0FfJnW+Fwl1d7taqNR/knemz4WJl5DdIWCfVvvqHqlURR2SNo69AlqOLKjFCppnqdKDAj1HBPiordS48ooNoDVMW6gW4Eptx2a7pKSAhFfHKAJMij/iAA9JMIVUtu72YtlOIpiSfoz9OpWqdqKoe6dNh7UesOcWVmsNeMD+JonRBEyYukvpygIL61Nin9dU/2m/yAPNJlIy38lXjK8PnlBIDVKunetmJlm0e7Z3/2NFCk3F/GqfMIvSWUlCxlq13AV36P4xco4e31rzAUnwBEFxWu9cWSZ9bm+XY8AIqUYqCS/CVB9l18xSU3l/mLe8K1lI2cFmX8Mxp3RmMC6t6mnFEk1bRUH6RwwmIlPNukBlJwMH8VX6Dv8f8yZ0wIS7IMbzyahKmR76bvNay1EuCQ5wtYv27eQjf102QHWROP2hTUx7ep0mMklOAnIQAyLari4n95SeYjvX801KXkQF0Qw1JFIG09c7undtKJxuhoE/vNN8WCzhtgHHkWCDm4SMG8w76/bpyciGyl11fynl57DLfCgmLb4hat9R1HbdK3eBELlnrC5zM2GCOpeZ3fVMbkpKeViXma/eVeTl9c6d7zMleFppbHx2S6sJHN5GW8h44npQ29YxFWLhY6g9U4fEC6ApHy/9ZFSSwNp24OSYtfacLrKftYb6RTb76HT+87AbLWWGR6RYxPJr4e1yySdhvvIZ5UnBWA+hutfS+rl1cIZ7gW/9zfy6CsxEIaXkx/fGTE3KXei9jL7MVLqiwfB1O044w6kv7yrfdRwSyyR+NddJYFg5XIjsz8bkTOl+YgQ/ChX03xlKR9a+0opmxSwFEsNFkaITe9+Nks="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 384,
+    "candidatesTokenCount": 16,
+    "totalTokenCount": 601,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 384
+      }
+    ],
+    "thoughtsTokenCount": 201,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash",
+  "responseId": "gFApaqyyOveIjuMP4LiYIQ"
+}
+
+================================================================================
+TIMESTAMP: 2026-06-10T17:28:52.245597
+---------------------------------------- REQUEST ----------------------------------------
+{
+  "system_instruction": {
+    "parts": [
+      {
+        "text": "You are a helpful assistant that answers questions based strictly on the provided document context and conversation history. If the answer cannot be found in the context, say: 'I cannot answer this based on the provided information.' Be concise and factual."
+      }
+    ]
+  },
+  "contents": [
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "Context from documents:\nCotton is a soft, fluffy, natural staple fiber composed almost entirely of cellulose. It grows in protective cases, called bolls, around the seeds of the cotton plant (genus Gossypium). It is widely cultivated for manufacturing breathable, durable, and biodegradable textiles. Core CharacteristicsComposition: ~87\u201390% pure cellulose, along with minor percentages of natural waxes, water, and pectins. Fiber Structure: Under a microscope, fibers look like flat, twisted ribbons.\n\nRegional Hubs: India is one of the world's largest cotton producers, with major cultivation zones in states like Gujarat, Maharashtra, Telangana, and Karnataka.\n\nBenefits: Highly absorbent (soaking up to 24-27% of its own weight), soft, easy to dye, and machine-washable. Main Uses Apparel: Used globally to produce everything from lightweight voiles to heavy denim and velveteen. Home Textiles: Commonly used for bed sheets, towels, and upholstery. Medical & Personal Care: Used for disposable nonwoven products like bandages, cotton balls, and swabs.\n\nPrevious conversation:\n\n\nHuman: My name is Davish\n\nAssistant:"
+        }
+      ]
+    }
+  ],
+  "generationConfig": {
+    "temperature": 0.2,
+    "maxOutputTokens": 1024
+  }
+}
+---------------------------------------- RESPONSE ---------------------------------------
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Hello Davish! How can I help you today?",
+            "thoughtSignature": "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"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 285,
+    "candidatesTokenCount": 11,
+    "totalTokenCount": 1006,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 285
+      }
+    ],
+    "thoughtsTokenCount": 710,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash",
+  "responseId": "ZVEpavbhK6mrjuMPqPXAiQM"
+}
+
+================================================================================
+TIMESTAMP: 2026-06-10T17:32:36.954705
+---------------------------------------- REQUEST ----------------------------------------
+{
+  "system_instruction": {
+    "parts": [
+      {
+        "text": "You are a helpful assistant that answers questions based strictly on the provided document context and conversation history. If the answer cannot be found in the context, say: 'I cannot answer this based on the provided information.' Be concise and factual."
+      }
+    ]
+  },
+  "contents": [
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "Context from documents:\nCotton is a soft, fluffy, natural staple fiber composed almost entirely of cellulose. It grows in protective cases, called bolls, around the seeds of the cotton plant (genus Gossypium). It is widely cultivated for manufacturing breathable, durable, and biodegradable textiles. Core CharacteristicsComposition: ~87\u201390% pure cellulose, along with minor percentages of natural waxes, water, and pectins. Fiber Structure: Under a microscope, fibers look like flat, twisted ribbons.\n\nRegional Hubs: India is one of the world's largest cotton producers, with major cultivation zones in states like Gujarat, Maharashtra, Telangana, and Karnataka.\n\nSeed Byproducts: Crushed seeds yield cottonseed oil for cooking and meal used as animal feed.Cultivation and ProcessingGrowth Cycle: Planted in the spring. The shrub produces flowers that eventually fall off, leaving behind seed pods (bolls). When mature, the bolls burst open, revealing the fluffy fibers.Ginning: After harvesting, the raw cotton is processed in a \"gin\" to remove debris, separate the seeds from the fibers, and compress the lint into bales.\n\nPrevious conversation:\nHuman: My name is Davish\n\nAssistant: Hello Davish! How can I help you today?\n\nHuman: what is my name ?\n\nAssistant:"
+        }
+      ]
+    }
+  ],
+  "generationConfig": {
+    "temperature": 0.2,
+    "maxOutputTokens": 1024
+  }
+}
+---------------------------------------- RESPONSE ---------------------------------------
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Your name is Davish.",
+            "thoughtSignature": "EooHCocHAQw51scnv+F4uoNHhCjzeygdCXAaqF95sFodsKjUJ/GlO5xycc/KLHwJCSk4HGiea0bMbM/t2O9kCu0i52dylpSflk2Z+9jIUD3w7PBwmmZChMr+YRpT+x5LdpcxuC1SY4oMlRh2HIILRf99+ghJ4V1wOvc4+IJgGBDVJPtk69Pkx5otzJeOI/m6gHlEXu+JRAkakDHGU8B3ZwkcVbuGucHwT83gZPqa4PrFUUBQ+TaU7fGtZjCy0h93Rfqi3TU8rZ+6J4Y0nOv9AT8x5fl2+mlFwjaMhY/JUL61B+RjcqQ2Xey9WQDwUTKS2T2slOPxW7woUULv6Ov8MStNXs6SZ1CIBxVwuocNsX9hkPUBoMT1a8bNKZC8HqPqhS+8eLOfGbE3WJ2d7PjLMrkj+DEZSSfUCR3bwFZga7tAgmRoaibOQy1Rk2NwPeK2elDkjBoWNZZ7DXX9YsPbOxsmVq8JRGsDnkTbZKGU2cbeNTNn2EmtIgSdi+WjJnj+4y23bTU1eEqPMBifTxDI8HfrB357xjTUjeEsJUg3a0WtXDHUE8on+j4GD3aTyB4d73XGW/Ipp6gIP0eeb1PN6UHAYAWsH3kuzu4oqxL5UnWIxHgzh8/ZI37ed2OfqlFA9Cwff2osfEBN4hq+l8aL9+16mZffTTSo+piEPCpMe4dx3IdhDqkt3zq/mEFvpnokqh3DVhmv8AZufXjkJFOe1bI3vzihgyt62+eAq6kuOt1yCAVgvbljlqiOiTDeRI+GiuIgCyMDLyAwBqhjSud5iNRFIQkqjatI2eFpWoL5tiEsv7sQAE7VIWt6D8AVGilIVC6oN2R4wRGfF1qZN/9uDMClGGmjf+Zkd7xRUa2CEqABkjtvgN9gGORz6iYE1v0rLuFxntU4xYAXAB8uESOLSfnC6jx4VtNyHeRVs7IWmRru3HxJT1Hcp2AASopbJewyAL94c6ypF/ZGb/8Rvo7PxjbRRSNrc0thKC4FUUwhsAUjO1HRDWlHImiJ3o0F+2zIUDzviO1zA+3yhLC+y2lmPDK7kl5cyIkPcctMY7FxlQ5NTGzMTni1S0ODxl6HNDUx8RLT/dNhnJgPHZKtvL4Rf2JhXfutYgyR8VkTGIopfNMCxPZNO5Jwmci8qe9htLGxtbcWi9MBHNd8jD6w9g4whIUgYHrV+ZujmwXoCalMxl/qH0XaFm9FdZBqIPXt"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 317,
+    "candidatesTokenCount": 6,
+    "totalTokenCount": 535,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 317
+      }
+    ],
+    "thoughtsTokenCount": 212,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash",
+  "responseId": "RlIpar_nD7G8juMP25ymsQY"
+}
+
